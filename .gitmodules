@@ -1,0 +1,6 @@
+[submodule "lib/os"]
+	path = lib/os
+	url = https://github.com/mars-86/os.git
+[submodule "lib/shapes"]
+	path = lib/shapes
+	url = https://github.com/mars-86/shapes.git
