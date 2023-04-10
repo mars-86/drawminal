@@ -11,9 +11,6 @@ struct Drawer {
 
 typedef struct Drawer drawer_t;
 
-void drawer_init(void);
-drawer_t *drawer_create(DRAWER_TYPE dtype);
-void drawer_destroy(drawer_t *drawer);
-void drawer_cleanup(void);
+void draw(void *buffer, int nlayer);
 
 #endif // __DRAWMINAL_DRAWER_INCLUDED_H__

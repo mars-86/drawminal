@@ -1,24 +1,9 @@
 #include <stdlib.h>
 #include "drawer.h"
 
-static wchar_t *buffer;
+drawer_t *drawer;
 
-void drawer_init(void)
+void draw(void *buffer, int nlayer)
 {
 
-}
-
-drawer_t *drawer_create(DRAWER_TYPE dtype)
-{
-
-}
-
-void drawer_destroy(drawer_t *drawer)
-{
-
-}
-
-void drawer_cleanup(void)
-{
-    free(buffer);
 }
